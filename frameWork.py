@@ -26,9 +26,6 @@ if gpus:
 else:
     print("No GPU(s) found.")
 
-# Cargar el conjunto de datos
-# Cargar el conjunto de datos
-
 
 train_data = tf.keras.preprocessing.image_dataset_from_directory(
     path,
